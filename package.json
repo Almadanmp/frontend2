@@ -37,6 +37,7 @@
     "react-redux": "^7.0.3",
     "react-router-config": "^5.0.0",
     "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1",
     "react-test-renderer": "^16.8.6",
     "react-thunk": "^1.0.0",
     "reactstrap": "^7.1.0",
@@ -44,8 +45,7 @@
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^0.87.1",
     "simple-line-icons": "^2.4.1",
-    "superagent": "^5.0.5",
-    "react-scripts": "^3.0.1"
+    "superagent": "^5.0.5"
   },
   "devDependencies": {
     "react-scripts": "^3.0.1"

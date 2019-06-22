@@ -1,6 +1,6 @@
-import { createStore, applyMiddleware } from 'redux/index';
+import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import combineReducers from "./reducers.js";
+import combineReducers from  "./reducers.js";
 
 export default function configureStore() {
   return createStore(
