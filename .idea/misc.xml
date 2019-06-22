@@ -8,7 +8,7 @@
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
+    <option name="languageLevel" value="JSX" />
   </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Project JavaDoc Index" />

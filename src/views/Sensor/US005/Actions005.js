@@ -13,7 +13,7 @@ export const addSensorType = (name, units)=> {
   return dispatch => {
     dispatch(addSensorTypeStarted(name, units));
     axios
-      .post(`https://smarthome-g2-server.herokuapp.com/sensors/sensorTypes`, data, {
+      .post(`https://smart-home-server-g2.herokuapp.com/sensors/sensorTypes`, data, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,

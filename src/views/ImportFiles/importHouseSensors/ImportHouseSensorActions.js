@@ -10,7 +10,7 @@ export function uploadFile(fileToUpload) {
   return dispatch => {
     dispatch(postFileStarted()); // antes de fazer o get, coloca o loading a true
     axios
-       .post('https://smarthome-g2-server.herokuapp.com/import/importHouseSensors', fileToUpload, {
+       .post('https://smart-home-server-g2.herokuapp.com/import/importHouseSensors', fileToUpload, {
         headers: {
           'Authorization': token,
                 "Access-Control-Allow-Credentials": true,

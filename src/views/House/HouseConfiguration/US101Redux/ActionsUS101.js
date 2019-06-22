@@ -11,7 +11,7 @@ export const fetchLocation = ({geographicAreaId, street, number, zip, town, coun
     dispatch(fetchLocationStarted(geographicAreaId, street, number, zip, town, country, latitude, longitude, altitude));
     const data = {geographicAreaId, street, number, zip, town, country, latitude, longitude, altitude};
     axios
-      .put('https://smarthome-g2-server.herokuapp.com/house/', data, {
+      .put('https://smart-home-server-g2.herokuapp.com/house/', data, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,

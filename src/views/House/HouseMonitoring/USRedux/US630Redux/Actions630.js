@@ -10,7 +10,7 @@ export const fetchColdDay = ({ from, to }) => {
   return dispatch => {
     dispatch(fetchColdDayStarted(from, to)); // antes de fazer o get, coloca o loading a true
     axios
-      .get(`https://smarthome-g2-server.herokuapp.com/houseMonitoring/coldestDay?initialDate=`+from+`&finalDate=`+to, {
+      .get(`https://smart-home-server-g2.herokuapp.com/houseMonitoring/coldestDay?initialDate=`+from+`&finalDate=`+to, {
         headers: {
           'Authorization': token,
           "Access-Control-Allow-Credentials": true,

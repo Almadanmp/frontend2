@@ -14,7 +14,7 @@ class SaveAreaSensor extends Component {
     const childAreaId = this.props.childAreaId;
 
     console.log(this.props);
-    fetch('https://smarthome-g2-server.herokuapp.com/geoAreas/' + motherAreaId + '/' + childAreaId,{
+    fetch('https://smart-home-server-g2.herokuapp.com/geoAreas/' + motherAreaId + '/' + childAreaId,{
       method: 'put',
       headers: {
         'Authorization': token,

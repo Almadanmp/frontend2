@@ -12,7 +12,7 @@ export const fetchEnergyGrid = ({name, maxContractedPower}) => {
     const houseID = "01";
     const data = {name, houseID, maxContractedPower};
     axios
-      .post('https://smarthome-g2-server.herokuapp.com/grids/', data,
+      .post('https://smart-home-server-g2.herokuapp.com/grids/', data,
         {
           headers: {
             'Authorization': token,

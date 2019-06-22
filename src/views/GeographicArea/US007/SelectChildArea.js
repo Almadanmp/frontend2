@@ -16,7 +16,7 @@ class SelectChildArea extends Component {
 
   componentDidMount() {
     const token = localStorage.getItem('loginToken')
-    fetch('https://smarthome-g2-server.herokuapp.com/geoAreas/',{
+    fetch('https://smart-home-server-g2.herokuapp.com/geoAreas/',{
         headers: {
           'Authorization': token,
           "Access-Control-Allow-Credentials": true,

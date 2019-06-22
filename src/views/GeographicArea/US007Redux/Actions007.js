@@ -13,7 +13,7 @@ export const fetchMotherChild = ({geographicAreaId, id}) => {
     console.log(geographicAreaId)
     const data = {geographicAreaId, id};
     axios
-      .put('https://smarthome-g2-server.herokuapp.com/geoAreas/' + geographicAreaId + '/' + id, data, {
+      .put('https://smart-home-server-g2.herokuapp.com/geoAreas/' + geographicAreaId + '/' + id, data, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,

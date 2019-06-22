@@ -10,7 +10,7 @@ export function fetchGABTs() {
   return dispatch => {
     dispatch(fetchGABTsStarted());
     axios
-      .get(`https://smarthome-g2-server.herokuapp.com/geoAreas/`, {
+      .get(`https://smart-home-server-g2.herokuapp.com/geoAreas/`, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,

@@ -11,7 +11,7 @@ export const fetchGA = ({name, typeArea, length, width, latitude, longitude, alt
     dispatch(fetchGAStarted(name, typeArea, length, width, latitude, longitude, altitude, description));
     const data = {name, typeArea, length, width, latitude, longitude, altitude, description};
     axios
-      .post(`https://smarthome-g2-server.herokuapp.com/geoAreas/`, data, {
+      .post(`https://smart-home-server-g2.herokuapp.com/geoAreas/`, data, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,

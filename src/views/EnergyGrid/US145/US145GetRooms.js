@@ -14,7 +14,7 @@ class US145GetRooms extends Component {
 
   componentDidMount() {
     const token = localStorage.getItem('loginToken');
-    fetch('https://smarthome-g2-server.herokuapp.com/gridSettings/grids/' + this.props.gridID, {
+    fetch('https://smart-home-server-g2.herokuapp.com/gridSettings/grids/' + this.props.gridID, {
       headers: {
         'Authorization': token,
         "Access-Control-Allow-Credentials": true,

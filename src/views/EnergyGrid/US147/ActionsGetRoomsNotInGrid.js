@@ -12,7 +12,7 @@ export const fetchRoomsNotInGrid = ({ grid }) => {
   return dispatch => {
     dispatch(fetchRoomsNotInGridStarted(grid)); // antes de fazer o get, coloca o loading a true
     axios
-      .get('https://smarthome-g2-server.herokuapp.com/gridSettings/grids/' + grid + '/notAttached',  {
+      .get('https://smart-home-server-g2.herokuapp.com/gridSettings/grids/' + grid + '/notAttached',  {
         headers: {
           'Authorization': token,
           "Access-Control-Allow-Credentials": true,

@@ -11,7 +11,7 @@ export function inactivateSensorFromArea({id, sensorId}) {
     dispatch(inactivateSensorStarted());
     const data = {id, sensorId};
     axios
-      .put('https://smarthome-g2-server.herokuapp.com/geoAreas/' + id + '/sensors/' + sensorId, data, {
+      .put('https://smart-home-server-g2.herokuapp.com/geoAreas/' + id + '/sensors/' + sensorId, data, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,

@@ -12,7 +12,7 @@ export const fetchRoom = ({name, floor, width, length, height}) => {
     dispatch(fetchRoomInfo(name, floor, width, length, height));
     const data = {name, floor, width, length, height};
     axios
-      .post('https://smarthome-g2-server.herokuapp.com/rooms/', data,
+      .post('https://smart-home-server-g2.herokuapp.com/rooms/', data,
         {
           headers: {
             'Authorization': token,

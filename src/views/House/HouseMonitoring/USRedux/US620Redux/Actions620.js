@@ -10,7 +10,7 @@ export const fetchTotalRainfallDay = ({ selectedDay }) => {
   return dispatch => {
     dispatch(fetchTotalRainfallStarted(selectedDay)); // antes de fazer o get, coloca o loading a true
     axios
-      .get(`https://smarthome-g2-server.herokuapp.com/houseMonitoring/totalRainfall?date=`+selectedDay,  {
+      .get(`https://smart-home-server-g2.herokuapp.com/houseMonitoring/totalRainfall?date=`+selectedDay,  {
         headers: {
           'Authorization': token,
           "Access-Control-Allow-Credentials": true,

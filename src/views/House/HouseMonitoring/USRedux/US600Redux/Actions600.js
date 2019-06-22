@@ -11,7 +11,7 @@ export function fetchTemp() {
   return dispatch => {
     dispatch(fetchTempStarted()); // antes de fazer o get, coloca o loading a true
     axios
-      .get(`https://smarthome-g2-server.herokuapp.com/house/currentHouseAreaTemperature`, {
+      .get(`https://smart-home-server-g2.herokuapp.com/house/currentHouseAreaTemperature`, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,

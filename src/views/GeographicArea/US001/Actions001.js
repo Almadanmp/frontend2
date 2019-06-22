@@ -11,7 +11,7 @@ export function addAreaType(typeName) {
   return dispatch => {
     dispatch(addAreaTypeStarted(typeName));
     axios
-      .post(`https://smarthome-g2-server.herokuapp.com/geoAreas/areaTypes`, data, {
+      .post(`https://smart-home-server-g2.herokuapp.com/geoAreas/areaTypes`, data, {
           headers: {
             'Authorization': token,
             "Access-Control-Allow-Credentials": true,
