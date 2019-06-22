@@ -37,5 +37,5 @@ CoreUI-React#v2.0.0
 
 ## See also
 [Create-React-App](CRA.md)
-[Changelog](CHANGELOG.md)  
-[Readme](README.md)
+[Changelog](./CHANGELOG.md)  
+[Readme](./README.md)

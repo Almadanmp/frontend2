@@ -1,4 +1,4 @@
-## [CoreUI](https://coreui.io/) for [react](REACT.md) changelog
+## [CoreUI](https://coreui.io/) for [react](./REACT.md) changelog
 
 ##### `v2.5.0`
 - release for use with:
